@@ -13,8 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  python,
   meta,
   starbucks,
   tesla,
@@ -90,7 +89,7 @@ const technologies = [
   },
   {
     name: "Python",
-    icon: nodejs,
+    icon: python,
   },
   {
     name: "MongoDB",
@@ -106,53 +105,38 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Admexai",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - Augest 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborated with teams to develop a solar need estimation calculator web app.",
+      "Worked with front-end developers to integrate the calculator with the user interface.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ensured that the calculator was scalable, secure, and efficient.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "Agri-Smart",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - JUl 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining mobile applications using React Nativev and other related technologies.",
+      "Collaborated with teams to develop a mobile app for the smart irrigation system using React Native.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Back-end Developer",
+    company_name: "Agri-smart",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2022 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining a backend api's using different Nodejs.",
+      "Collaborated with teams to develop different APIs for the smart irrigation system.",
+      "Worked with front-end developers to integrate the APIs with the user interface.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -187,9 +171,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Hub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "CarHub is a modern single-page application built with Next.js 13. It allows users to easily find detailed specifications for any vehicle. The application has advanced search functionality and a responsive design with Tailwind CSS. CarHub was developed by collaborating with teams and working with front-end developers to integrate the APIs with the user interface.",
     tags: [
       {
         name: "react",
@@ -208,9 +192,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Solar Calculator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A solar calculator is a tool that estimates the solar energy potential of a given location. It takes into account factors such as roof size, shape, shading, local weather, and electricity prices to provide an estimate of the savings that can be achieved by installing solar panels. The calculator can also help determine the size of the solar panel system needed to meet the energy needs of a household or business.",
     tags: [
       {
         name: "react",
@@ -229,20 +213,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Smart irrigation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " smart irrigation system is a software that uses machine learning algorithms to optimize water usage in agriculture. It consists of a mobile app and backend API that allows users to monitor and control the irrigation system remotely. The system is designed to be scalable, secure, and efficient.",
     tags: [
       {
-        name: "nextjs",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],

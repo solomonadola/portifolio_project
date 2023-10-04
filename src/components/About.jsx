@@ -42,7 +42,7 @@ const About = () => {
       >
         I'm a skilled software developer with experience in Python, javaScript
         and TypeScript and expertise in frameworks like React, Node.js, and
-        Three.js. Im quick learner and collaborate closely with clinets to
+        Three.js. I'm quick learner and closely collaborate to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
