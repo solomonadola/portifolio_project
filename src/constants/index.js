@@ -145,26 +145,18 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Solomon did a wonderful job. Everything went smoothly, communication was fluent, delivered on time and as expected. I highly recommend working with Solomon.",
+    name: "Salim Boudi, ",
+    designation: "",
+    company: "Iteration X",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "I had the pleasure of working with Solomon on a recent project, and I am thoroughly impressed with his professionalism and dedication to delivering high-quality work. Throughout the project, Solomon demonstrated exceptional attention to detail, and his communication skills were outstanding",
+    name: "Nikolay Dimitro",
+    designation: "CEO",
+    company: " Admex Ai",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
